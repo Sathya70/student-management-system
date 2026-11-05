@@ -1,0 +1,43 @@
+.dashboard-page {
+  min-height: 100vh;
+  padding: 48px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(180deg, #f8fbff 0%, #eef2ff 100%);
+}
+
+.dashboard-card {
+  width: min(620px, 100%);
+  padding: 2.5rem;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 28px 50px rgba(15, 23, 42, 0.12);
+  border: 1px solid rgba(79, 70, 229, 0.12);
+}
+
+.dashboard-card h2 {
+  text-align: center;
+  margin-bottom: 1.75rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.marks-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 1.1rem;
+  background: rgba(79, 70, 229, 0.05);
+  border-radius: 18px;
+  border: 1px solid rgba(79, 70, 229, 0.12);
+}
+
+.marks-row b {
+  display: inline-block;
+  min-width: 110px;
+  font-weight: 700;
+  color: var(--text);
+}

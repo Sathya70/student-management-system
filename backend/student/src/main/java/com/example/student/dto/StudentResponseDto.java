@@ -1,0 +1,78 @@
+package com.example.student.dto;
+
+public class StudentResponseDto {
+
+	private Integer id;
+	private String regNo;
+	private String name;
+	private Integer age;
+	private String studentClass;
+	private String email;
+	private String address;
+	private String password;
+
+	// getters and setters
+	public Integer getId() {
+		return id;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getRegNo() {
+		return regNo;
+	}
+
+	public void setRegNo(String regNo) {
+		this.regNo = regNo;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+
+	public String getStudentClass() {
+		return studentClass;
+	}
+
+	public void setStudentClass(String studentClass) {
+		this.studentClass = studentClass;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+}
